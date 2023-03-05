@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Outfit;
+    src: url(fonts/Outfit-Bold.ttf) format(truetype); src: url(fonts/Outfit-Regular.ttf) format(truetype)
+}
+
+body {
+    margin: 0;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    background-color:hsl(212, 45%, 89%);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    background-color:hsl(212, 45%, 89%);  
+}
+
+.container {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+
+    /* Outros: */
+    background-color: hsl(212, 45%, 89%);
+    background-size: cover;
+    padding: 10px;
+    height: 100vh;
+    width: 100vw;
+    overflow:hidden;
+
+}
+
+.qr-body {
+    flex: 0 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 14px;
+    height:  440px;
+    width: 250px; 
+    box-shadow: 5.3px 8.6px 5.3px rgba(0, 0, 0, 0.04), 17.9px 29px 17.9px rgba(0, 0, 0, 0.06), 80px 130px 80px rgba(0, 0, 0, 0.1);
+}
+
+.principal {
+    font-family: Outfit;
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.sub {
+    flex: 0 1 auto;
+    font-family: Outfit;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    text-wrap: nowrap;
+    ;
+}
+
+.qr-body img {
+    order: 1;
+    align-self: center;
+    border-radius: 10px;
+    width: 100%;
+}
